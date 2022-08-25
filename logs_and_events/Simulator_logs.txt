@@ -1,0 +1,62 @@
+{"time":1661415166938,"msg":"Executing instruction 0. Type: newMatcher"}
+{"time":1661415167495,"msg":"Matcher: GW created with ID: 1"}
+{"time":1661415167498,"msg":"Executing instruction 1. Type: wait"}
+{"time":1661415167599,"msg":"waited for 100 milliseconds"}
+{"time":1661415167601,"msg":"Executing instruction 2. Type: newMatcher"}
+{"time":1661415167651,"msg":"Matcher: M2 created with ID: 2"}
+{"time":1661415167652,"msg":"Executing instruction 3. Type: newMatcher"}
+{"time":1661415167679,"msg":"Matcher: M3 created with ID: 3"}
+{"time":1661415167680,"msg":"Executing instruction 4. Type: newClient"}
+{"time":1661415168308,"msg":"Client C1 assigned to matcher: GW"}
+{"time":1661415168309,"msg":"Executing instruction 5. Type: wait"}
+{"time":1661415168510,"msg":"waited for 200 milliseconds"}
+{"time":1661415168511,"msg":"Executing instruction 6. Type: subscribe"}
+{"time":1661415168513,"msg":"C1: added subscription:"}
+{"time":1661415168514,"msg":"Executing instruction 7. Type: newClient"}
+{"time":1661415169771,"msg":"Client C2 assigned to matcher: GW"}
+{"time":1661415169771,"msg":"Executing instruction 8. Type: wait"}
+{"time":1661415170074,"msg":"waited for 300 milliseconds"}
+{"time":1661415170076,"msg":"Executing instruction 9. Type: subscribe"}
+{"time":1661415170078,"msg":"C2: added subscription:"}
+{"time":1661415170078,"msg":"Executing instruction 10. Type: newClient"}
+{"time":1661415170153,"msg":"Client C3 assigned to matcher: GW"}
+{"time":1661415170154,"msg":"Executing instruction 11. Type: wait"}
+{"time":1661415170554,"msg":"waited for 400 milliseconds"}
+{"time":1661415170555,"msg":"Executing instruction 12. Type: subscribe"}
+{"time":1661415170557,"msg":"C3: added subscription:"}
+{"time":1661415170558,"msg":"Executing instruction 13. Type: subscribe"}
+{"time":1661415170559,"msg":"C3: added subscription:"}
+{"time":1661415170559,"msg":"Executing instruction 14. Type: wait"}
+{"time":1661415170660,"msg":"waited for 100 milliseconds"}
+{"time":1661415170661,"msg":"Executing instruction 15. Type: publish"}
+{"time":1661415170662,"msg":"C1 published:"}
+{"time":1661415170662,"msg":"Executing instruction 16. Type: wait"}
+{"time":1661415170764,"msg":"waited for 100 milliseconds"}
+{"time":1661415170764,"msg":"Executing instruction 17. Type: publish"}
+{"time":1661415170767,"msg":"C2 published:"}
+{"time":1661415170767,"msg":"Executing instruction 18. Type: wait"}
+{"time":1661415170867,"msg":"waited for 100 milliseconds"}
+{"time":1661415170867,"msg":"Executing instruction 19. Type: publish"}
+{"time":1661415170869,"msg":"C3 published:"}
+{"time":1661415170869,"msg":"Executing instruction 20. Type: wait"}
+{"time":1661415170970,"msg":"waited for 100 milliseconds"}
+{"time":1661415170970,"msg":"Executing instruction 21. Type: publish"}
+{"time":1661415170971,"msg":"C2 published:"}
+{"time":1661415170972,"msg":"Executing instruction 22. Type: wait"}
+{"time":1661415171073,"msg":"waited for 100 milliseconds"}
+{"time":1661415171073,"msg":"Executing instruction 23. Type: moveClient"}
+{"time":1661415171076,"msg":"C1 request move to [350; 500]"}
+{"time":1661415171077,"msg":"Executing instruction 24. Type: wait"}
+{"time":1661415172078,"msg":"waited for 1000 milliseconds"}
+{"time":1661415172078,"msg":"Executing instruction 25. Type: moveClient"}
+{"time":1661415172079,"msg":"C1 request move to [400; 600]"}
+{"time":1661415172079,"msg":"Executing instruction 26. Type: publish"}
+{"time":1661415172081,"msg":"C2 published:"}
+{"time":1661415172081,"msg":"Executing instruction 27. Type: publish"}
+{"time":1661415172082,"msg":"C2 published:"}
+{"time":1661415172082,"msg":"Executing instruction 28. Type: wait"}
+{"time":1661415172182,"msg":"waited for 100 milliseconds"}
+{"time":1661415172183,"msg":"Executing instruction 29. Type: publish"}
+{"time":1661415172185,"msg":"C2 published:"}
+{"time":1661415172188,"msg":"Executing instruction 30. Type: wait"}
+{"time":1661415173190,"msg":"waited for 1000 milliseconds"}
